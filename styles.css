@@ -130,6 +130,10 @@ footer {
         height: 40vh; /* Altura da caixa de resultados em telas menores */
     }
 
+    .resultados-pesquisa-none {
+        display: none;
+    }
+
     .item-resultado h2 {
         font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
     }

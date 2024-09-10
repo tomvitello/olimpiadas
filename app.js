@@ -6,6 +6,7 @@ function pesquisar() {
     campoPesquisa = campoPesquisa.toLowerCase();
 
     if (!campoPesquisa) {
+        section.className = "resultados-pesquisa";
         section.innerHTML = "<p>Busca vazia</p>";
         return;
     }
@@ -40,6 +41,7 @@ function pesquisar() {
         resultados = "<p>Informação não encontrada</p>";
     }
     
+    section.className = "resultados-pesquisa";
     section.innerHTML = resultados;
 
 }
